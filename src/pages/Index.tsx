@@ -61,7 +61,7 @@ const Index = () => {
           className="mt-8 text-2xl font-semibold bg-clip-text text-transparent bg-gradient-blue-green animate-gradient-shift"
           style={{ backgroundSize: '200% 200%' }}
         >
-          Flutter Connectivity Hub
+          Flutter Connectivity Hubb
         </motion.h1>
         
         <motion.div 
