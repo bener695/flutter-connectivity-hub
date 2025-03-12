@@ -77,6 +77,4 @@ const Index = () => {
   );
 };
 
-<lov-add-dependency>framer-motion@latest</lov-add-dependency>
-
 export default Index;

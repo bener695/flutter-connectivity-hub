@@ -13,7 +13,8 @@ import {
   Clock,
   XCircle,
   ChevronRight,
-  Image
+  Image,
+  HistoryIcon
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { 
@@ -206,7 +207,7 @@ const LogHistory = () => {
           </div>
         ) : filteredLogs.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-12">
-            <History className="h-8 w-8 text-app-text-secondary mb-4" />
+            <HistoryIcon className="h-8 w-8 text-app-text-secondary mb-4" />
             <p className="text-app-text-secondary">
               {searchTerm ? 'No logs match your search' : 'No logs found'}
             </p>
